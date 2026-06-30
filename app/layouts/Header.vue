@@ -1,6 +1,6 @@
 <template>
-<header class="w-full px-4 ">
-  <div class="container w-full top-4 fixed z-20 bg-main-yellow md:pt-4 rounded-3xl">
+<header class="w-full px-4 top-3 fixed z-20">
+  <div class="container w-full  bg-main-yellow md:pt-4 rounded-3xl">
       <div class="md:hidden">
           <div @click="switchMenu" class=" md:hidden p-2 cursor-pointer">
             <nuxt-icon name="menu" class="text-main-dark-blue text-[28px]" />
@@ -24,7 +24,7 @@
       </div>
       <div class="container hidden md:flex w-full align-center justify-start">
           <div v-for="item in menus" :key="item.id"
-               class="text-white border-transparent font-bold xl:text-lg border-b-4 hover:border-main-gray duration-[0.2s] mx-2.5 xl:mx-5 pb-2 xl:pb-4 px-1 xl:px-2 ease-in-out  hover:text-main-dark-blue hover:opacity-75">
+               class="text-white border-transparent font-bold xl:text-base border-b-4 hover:border-main-gray duration-[0.2s] mx-2.5 xl:mx-5 pb-2 xl:pb-4 px-1 xl:px-2 ease-in-out  hover:text-main-dark-blue hover:opacity-75">
             <a v-if="item.name== 'Experience'" :href="item.link">
               {{ item.name }}
             </a>
