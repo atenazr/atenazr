@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     preset: 'static'
   },
   app: {
-    baseURL: '/' // IMPORTANT for root github.io repo
+    baseURL: "/atenazr/",
+    buildAssetsDir: "_nuxt/"
   },
   vite: {
     plugins: [
