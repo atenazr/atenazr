@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     preset: 'static'
   },
   app: {
-    baseURL: "/atenazr/",
+    baseURL: "/",
     buildAssetsDir: "_nuxt/"
   },
   vite: {
