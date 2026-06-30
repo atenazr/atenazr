@@ -17,7 +17,7 @@
             </div>
             <div class="flex justify-center align-center">
                 <a target="_blank" class="p-1 mx-2" v-for="item in socialMedia" :key="item.id" :href="item.link" >
-                  <nuxt-icon class="text-[28px] hover:text-main-yellow duration-[0.5s]" :name="item.icon" />
+                  <nuxt-icon class="text-[22px] xl:text-[28px] hover:text-main-yellow duration-[0.5s]" :name="item.icon" />
                 </a>
             </div>
 
