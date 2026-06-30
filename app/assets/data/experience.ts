@@ -5,13 +5,12 @@ export const research =[
         duration:'Dec 2024-Oct 2025',
         company:'M.Sc. Thesis',
         supervisors:'Dr. Mohammadjavad Hosseinpoor, Dr. Alireza Akhavanpour',
-        description:'In my thesis, I proposed a novel mechanism addressing <strong>face anti-spoofing attacks based on DeepLabV3</strong>, achieving <strong> 93.7% \n' +
-            'accuracy </strong> in distinguishing real versus spoofed facial inputs. Choosing an appropriate model as the base was challenging, \n' +
-            'so I explored scientific papers and conducted some research about existing segmentation models. Due to its high \n' +
-            'performance in various segmentation tasks, <strong>DeepLabV3 with a ResNet101 backbone </strong> was chosen. Also, \n' +
+        description:'I proposed a mechanism addressing <strong>face anti-spoofing attacks based on DeepLabV3</strong>, achieving <strong> 93.7% \n' +
+            'accuracy </strong> in distinguishing real versus spoofed facial inputs. '+
+            'I explored scientific papers and conducted some research about existing segmentation models. The <strong>DeepLabV3 with a ResNet101 backbone </strong> was chosen. Also, \n' +
             'creating suitable labels for the dataset, which originally contained textual labels was solved by developing <strong>segmentation-based labels </strong> for each image through a preprocessing stage. \n' +
-            'Interestingly, handling and managing such a research project in a remote group made me more <strong>self-motivated and \n' +
-            'independent than before</strong>. A noticeable outcome of this work was that <strong>the model remarkably could detect a human’s facial \n' +
+            'Interestingly, handling this research project in a remote group made me more <strong>self-motivated and \n' +
+            'independent than before</strong>.More importantly, <strong>the model remarkably could detect a human’s facial \n' +
             'features such as eyes in spoofed images</strong>, highlighting the strong capabilities of semantic segmentation models to extract \n' +
             'meaningful and informative patterns even in non-standard classification contexts. I am working on it to improve this framework, and <strong>I will share the code soon</strong>.',
         images:[],

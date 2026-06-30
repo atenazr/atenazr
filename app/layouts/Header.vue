@@ -1,12 +1,12 @@
 <template>
-<header class="w-full pt-3 px-4 top-0 fixed z-20">
-  <div class="container w-full bg-main-yellow md:pt-4 rounded-3xl">
+<header class="w-full px-4 ">
+  <div class="container w-full top-4 fixed z-20 bg-main-yellow md:pt-4 rounded-3xl">
       <div class="md:hidden">
           <div @click="switchMenu" class=" md:hidden p-2 cursor-pointer">
             <nuxt-icon name="menu" class="text-main-dark-blue text-[28px]" />
           </div>
           <div @click="switchMenu"
-               :class="showMenu? 'left-4 opacity-100' : 'left-[-340px] opacity-0'"
+               :class="showMenu? 'left-0 opacity-100' : 'left-[-340px] opacity-0'"
                class="w-1/2 absolute rounded-2xl overflow-hidden duration-[1.5s] ease-in-out top-[56px] border-t border-white  z-20">
             <div class="w-full">
                 <div v-for="item in menus" :key="item.id" class="w-full">

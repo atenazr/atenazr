@@ -58,7 +58,7 @@
         <HeadingTitle tit="Work"  />
         <div class="w-full text-main-dark-blue flex flex-col xl:flex-row flex-wrap p-4 xl:p-8">
           <div class="w-full xl:w-1/2 p-4 xl:p-8 text-main-dark-blue"  v-for="item in work" :key="item.id">
-            <ExperienceCard class="md:!h-[440px]" icon="work"  :company="item.company" :title="item.title" :link1="item.link"
+            <ExperienceCard class="md:!h-[480px]" icon="work"  :company="item.company" :title="item.title" :link1="item.link"
                             :description="item.description" :images="item.images? item.images : ''" :duration="item.duration" />
           </div>
         </div>

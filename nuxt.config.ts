@@ -17,7 +17,16 @@ export default defineNuxtConfig({
 
   app: {
     baseURL: "/",
-    buildAssetsDir: "_nuxt/"
+    buildAssetsDir: "_nuxt/",
+    head: {
+      title: 'Fatemeh Zare', // default fallback title
+      htmlAttrs: {
+        lang: 'en',
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/33.png' },
+      ],
+    },
   },
 
   vite: {

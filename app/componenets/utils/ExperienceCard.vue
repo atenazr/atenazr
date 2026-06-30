@@ -1,6 +1,6 @@
 <template>
 
-    <div class="w-full card flex flex-col md:h-[560px] bg-white py-4 px-6">
+    <div class="w-full card flex flex-col md:h-[580px] bg-white p-4 xl:px-6">
       <div class="mb-1 xl:mb-2">
         <nuxt-icon class="text-[48px] text-main-yellow" :name="icon" />
       </div>
