@@ -1,0 +1,1 @@
+const i=[{id:0,link:"https://github.com/atenazr?tab=repositories",icon:"github"},{id:2,link:"mailto:zareatena17@gmail.com",icon:"email"},{id:1,link:"https://www.linkedin.com/in/atena-zr",icon:"linkedin"}];export{i as s};
