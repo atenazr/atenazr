@@ -1,6 +1,6 @@
 <template>
 
-    <div class="w-full card flex flex-col md:h-[580px] bg-white p-4 xl:px-6">
+    <div class="w-full card flex flex-col xl:h-[580px] bg-white p-4 xl:px-6">
       <div class="mb-1 xl:mb-2">
         <nuxt-icon class="text-[48px] text-main-yellow" :name="icon" />
       </div>
@@ -12,10 +12,10 @@
           {{ duration }}
         </div>
       </div>
-      <div class="mb-2">
+      <div class="text-sm xl:text-base mb-2">
         {{ company }}
       </div>
-      <p v-html="description" class="text-justify mb-2">
+      <p v-html="description" class="text-sm xl:text-base text-justify mb-2">
       </p>
       <div v-if="!!images">
 <!--        {{ item.images }}-->

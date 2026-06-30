@@ -6,7 +6,7 @@
       <div class=" w-full pl-5 xl:pl-10 pr-3 xl:pr-6 py-1.5 xl:py-3">
           <ul class="list-disc">
               <li v-for="item in publications" :key="item.id"
-                  class="w-full text-secondary-white mb-1 xl:mb-2">
+                  class="w-full text-sm md:text-base text-secondary-white mb-1 xl:mb-2">
                 <span>
                     {{ item.authors }}
                 </span>
