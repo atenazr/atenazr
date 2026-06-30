@@ -5,6 +5,12 @@ export default defineNuxtConfig({
   modules: ['nuxt-icons'],
   devtools: { enabled: true },
   css: ['./app/assets/css/main.css'],
+  nitro: {
+    preset: 'static'
+  },
+  app: {
+    baseURL: '/' // IMPORTANT for root github.io repo
+  },
   vite: {
     plugins: [
       tailwindcss(),
