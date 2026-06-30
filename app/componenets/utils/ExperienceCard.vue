@@ -5,7 +5,7 @@
         <nuxt-icon class="text-[48px] text-main-yellow" :name="icon" />
       </div>
       <div class="flex mb-2">
-        <div class="text-lg font-semibold">
+        <div class="xl:text-lg font-semibold">
           {{ title }}
         </div>
         <div class="ml-auto text-sm font-semibold">

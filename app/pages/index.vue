@@ -5,14 +5,14 @@
       <div class="w-full min-h-dvh relative">
         <div class="text-secondary-white w-full h-full absolute top-1/2 ">
           <div class="w-full flex flex-col items-center justify-center">
-            <div class="text-center text-2xl md:text-4xl xl:text-6xl font-bold">
+            <div class="text-center text-2xl md:text-3xl xl:text-5xl font-bold">
               <span class="text-main-yellow">F</span>ATEMEH <span class="text-main-yellow">Z</span>ARE
             </div>
-            <div class="mt-3 xl:mt-6 text-center text-xl xl:text-2xl font-script">
+            <div class="mt-3 xl:mt-6 text-center text-lg xl:text-xl font-script">
               Researcher <span class="mx-1 inline-block w-[6px] xl:w-[10px] h-[6px] xl:h-[10px] bg-white rounded-full"></span>
               Developer <span class="mx-1 inline-block w-[6px] xl:w-[10px] h-[6px] xl:h-[10px] bg-white rounded-full"></span> Teacher
             </div>
-            <div class="my-2 xl:my-4 text-center text-xl xl:text-2xl font-script">
+            <div class="my-2 xl:my-4 text-center text-lg xl:text-xl font-script">
               CREATING INTELLIGENT SYSTEMS FOR HUMAN-CENTERED FUTURE
             </div>
             <div class="flex justify-center align-center">
