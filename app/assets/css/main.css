@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --font-inter: "Inter", sans-serif;
+    --font-script:"Story Script","Inter", sans-serif;
+    --color-pink: #eb6bd8;
+    --color-main-yellow: #ffbc3b;
+    --color-main-dark-blue:#1e1e4b;
+    --color-secondary-white:#f8f8f8;
+    --color-main-gray:#5c5c77;
+    --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+    --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+    /* ... */
+}
+
+@layer components {
+    .heading-page{
+        color: #1e1e4b;
+        font-size:30px;
+        font-weight:700;
+        cursor: pointer;
+    }
+    .btn-yellow{
+        color:#ffbc3b;
+        padding:8px 12px;
+        border:2px solid #ffbc3b ;
+        text-align: center;
+        background: #f8f8f8;
+        font-size:18px;
+        font-weight:500;
+        border-radius:3px;
+        cursor: pointer;
+        transition-duration:0.3s;
+        transition-timing-function: ease-out;
+    }
+    .btn-yellow:hover{
+        background: #ffbc3b;
+        color: #f8f8f8;
+    }
+    .card{
+        transition-timing-function: ease-in-out;
+        transition-duration:0.3s;
+        border:1px solid #ededf1;
+        width:100%;
+        border-radius:6px;
+    }
+
+    .card:hover{
+        box-shadow: 0px 4px 25px 0px rgba(27,39,71,0.15);
+    }
+
+    .nuxt-icon svg{
+        margin-bottom: 0 !important;
+    }
+    *.container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
