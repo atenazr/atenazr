@@ -5,7 +5,7 @@
         <div class="text-white font-semibold px-2 py-3 text-center bg-main-dark-blue text-sm md:text-md">
           {{ item.title }}
         </div>
-        <div v-html="item.description" class="text-sm xl:text-base md:h-[200px] xl:h-[320px] text-main-dark-blue p-2 xl:p-4" />
+        <div v-html="item.description" class="text-sm text-justify xl:text-base md:h-[200px] xl:h-[320px] text-main-dark-blue p-2 xl:p-4" />
       </div>
     </div>
   </div>

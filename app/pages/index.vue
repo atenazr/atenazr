@@ -37,7 +37,7 @@
             <h3 class="heading-page">
               About
             </h3>
-            <p v-html="personalData.about" class="text-main-gray xl:text-lg text-justify">
+            <p v-html="personalData.about" class="text-main-gray text-sm xl:text-lg text-justify">
             </p>
           </div>
 
@@ -52,26 +52,27 @@
     <div  class=" w-full py-2 xl:py-4 px-4 xl:px-8 bg-secondary-white">
       <div class="container flex flex-col justify-center items-center">
         <HeadingTitle tit="Education" />
-        <div class="flex flex-wrap justify-start align-center px-4 xl:px-8">
-            <div class="w-full xl:w-1/2 p-4 xl:p-8 text-main-dark-blue" v-for="item in education" :key="item.id">
+        <div class="flex flex-wrap justify-start align-center px-2 xl:px-8">
+            <div class="w-full xl:w-1/2 p-2 xl:p-8 text-main-dark-blue" v-for="item in education" :key="item.id">
 
               <div class="card py-2 xl:py-4 px-3 xl:px-6 flex flex-col justify-center items-start">
                   <div class="mb-2 xl:mb-4">
                     <nuxt-icon class="text-[28px] text-main-yellow" name="book" />
                   </div>
-                  <div class="flex text-sm xl:text-base w-full mb-2">
-                      <div class="xl:text-lg font-semibold">
+                  <div class="flex flex-col md:flex-row text-sm xl:text-base w-full mb-2">
+                      <div class="text-base xl:text-lg font-semibold">
                         {{ item.title }}
                       </div>
-                      <div class="ml-auto text-sm font-semibold">
+                      <div class="mt-2 md:mt-0 ml-auto text-sm font-semibold">
                         {{ item.duration }}
                       </div>
                   </div>
-                  <div class="text-xs xl:text-base flex mb-2 w-full">
+
+                  <div class="text-sm flex-col xl:flex-row xl:text-base flex mb-2 w-full">
                       <div class="">
                         {{ item.institution }}
                       </div>
-                      <div class="ml-auto font-semibold">
+                      <div class="mt-2 xl:mt-0 ml-auto font-semibold">
                         GPA:
                         {{ item.gpa }}
                       </div>
@@ -125,7 +126,7 @@
             <HeadingTitle tit="Skills" />
             <Skills />
 
-            <div class="text-center font-semibold mb-2 mt-2 xl:mb-4">
+            <div class="text-center text-sm md:text-base font-semibold mb-2 mt-2 xl:mb-4">
               For detailed information, Go to
               <span class="hover:text-main-yellow">
                 <router-link to="/experience" > Experience page</router-link>

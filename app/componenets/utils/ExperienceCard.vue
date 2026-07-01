@@ -4,11 +4,11 @@
       <div class="mb-1 xl:mb-2">
         <nuxt-icon class="text-[48px] text-main-yellow" :name="icon" />
       </div>
-      <div class="flex mb-2">
+      <div class="flex flex-col md:flex-row mb-2">
         <div class="xl:text-lg font-semibold">
           {{ title }}
         </div>
-        <div class="ml-auto text-sm font-semibold">
+        <div class="mt-2 md:mt-0 ml-auto text-sm font-semibold">
           {{ duration }}
         </div>
       </div>
@@ -21,7 +21,7 @@
 <!--        {{ item.images }}-->
       </div>
       <div v-if="!!link1" class=" xl:mt-auto">
-          <a class="hover:text-main-yellow font-semibold" :href="link1" target="_blank">Link</a>
+          <a class="text-sm md:text-base hover:text-main-yellow font-semibold" :href="link1" target="_blank">Link</a>
       </div>
     </div>
 
