@@ -60,7 +60,7 @@
                     <nuxt-icon class="text-[28px] text-main-yellow" name="book" />
                   </div>
                   <div class="flex flex-col md:flex-row text-sm xl:text-base w-full mb-2">
-                      <div class="text-base xl:text-lg font-semibold">
+                      <div class="text-sm md:text-base xl:text-lg font-semibold">
                         {{ item.title }}
                       </div>
                       <div class="mt-2 md:mt-0 ml-auto text-sm font-semibold">
@@ -68,11 +68,11 @@
                       </div>
                   </div>
 
-                  <div class="text-sm flex-col xl:flex-row xl:text-base flex mb-2 w-full">
+                  <div class="text-sm flex-col xl:text-base flex mb-2 w-full">
                       <div class="">
                         {{ item.institution }}
                       </div>
-                      <div class="mt-2 xl:mt-0 ml-auto font-semibold">
+                      <div class="mt-2 ml-auto font-semibold">
                         GPA:
                         {{ item.gpa }}
                       </div>
@@ -80,7 +80,7 @@
 
                   <div  class="w-full xl:h-[220px] flex flex-col ">
                       <div class="flex my-2">
-                          <div class="text-sm xl:text-base font-semibold mr-1">
+                          <div class="grow !w-[76px] xl:!w-[86px] text-sm xl:text-base font-semibold mr-4">
                               Courses:
                           </div>
                           <div class="text-sm xl:text-base">
@@ -88,7 +88,7 @@
                           </div>
                       </div>
                       <div class="flex my-2">
-                        <div class="text-sm xl:text-base font-semibold mr-1">
+                        <div class="!w-[76px] xl:!w-[86px] text-sm xl:text-base font-semibold mr-1">
                           Highlights:
                         </div>
                         <div class="text-sm xl:text-base italic">
@@ -96,7 +96,7 @@
                         </div>
                       </div>
                       <div class="text-sm xl:text-base flex mb-1 mt-auto">
-                          <div class="font-semibold mr-1">
+                          <div class="!w-[76px] xl:!w-[86px] font-semibold mr-1">
                             Thesis:
                           </div>
                           <div>
@@ -104,7 +104,7 @@
                           </div>
                       </div>
                       <div class="flex text-sm xl:text-base my-2">
-                        <div class="font-semibold mr-1">
+                        <div class="!w-[76px] xl:!w-[86px] font-semibold mr-1">
                           Advisors:
                         </div>
                         <div>
