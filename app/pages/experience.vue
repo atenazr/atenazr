@@ -57,8 +57,8 @@
     <div class="w-full bg-secondary-white py-2 xl:py-4 px-4 xl:px-8">
       <div class="container w-full">
         <HeadingTitle tit="Work"  />
-        <div class="w-full text-main-dark-blue flex flex-col xl:flex-row flex-wrap p-4 xl:p-8">
-          <div class="w-full xl:w-1/2 p-4 xl:p-8 text-main-dark-blue"  v-for="item in work" :key="item.id">
+        <div class="w-full text-main-dark-blue flex flex-col xl:flex-row flex-wrap p-2 md:p-4 xl:p-8">
+          <div class="w-full xl:w-1/2 p-2 md:p-4 xl:p-8 text-main-dark-blue"  v-for="item in work" :key="item.id">
             <ExperienceCard class="xl:!h-[480px]" icon="work"  :company="item.company" :title="item.title" :link1="item.link"
                             :description="item.description" :images="item.images? item.images : ''" :duration="item.duration" />
           </div>
